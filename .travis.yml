@@ -1,5 +1,3 @@
-before_install:
-  - cd java
 language: java
 
 jdk:
