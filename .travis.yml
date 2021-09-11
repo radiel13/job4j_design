@@ -2,14 +2,7 @@ language: java
 
 jdk:
   - openjdk16
-script:
-  - jdk_switcher use openjdk16
-  - # do stuff with OpenJDK 16
-  - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
-  - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
-  - export JAVA_HOME=$HOME/openjdk16
-  - $TRAVIS_BUILD_DIR/install-jdk.sh -F 11 --target $JAVA_HOME
-  - # do stuff with open OpenJDK 16
+
 sudo: false
 
 env:
