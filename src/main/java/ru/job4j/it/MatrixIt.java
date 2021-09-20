@@ -7,12 +7,9 @@ public class MatrixIt implements Iterator<Integer> {
     private final int[][] data;
     private int row = 0;
     private int column = 0;
-
+// solution 1
     public MatrixIt(int[][] data) {
         this.data = data;
-        while (data[row].length == 0 && row < data.length - 1) {
-            row++;
-        }
     }
 
     @Override
