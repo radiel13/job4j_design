@@ -32,7 +32,7 @@ public class EvenNumbersIterator implements Iterator<Integer> {
             throw new NoSuchElementException();
         }
 
-        if (data[index] % 2 != 0) {
+        while (data[index] % 2 != 0) {
             index++;
         }
 
