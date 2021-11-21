@@ -11,6 +11,7 @@ public class SimpleSet<T> implements Set<T> {
     @Override
     public boolean add(T value) {
 
+
         for (T val : set) {
             if (val == null && value == null) {
                 return false;
@@ -49,3 +50,25 @@ public class SimpleSet<T> implements Set<T> {
     }
 
 }
+/*
+123
+(0)1. 1 (66)
+(1)2. 10 (33)
+(2)3. 101 (16)
+(3)4. 1011 (8)
+(4)5. 10110 (4)
+(5)6. 101100 (2)
+(6)7. 1011000 (1)
+(7)8. 10110001 Х
+
+public static String binary(int num) {
+    StringBuilder sb = new StringBuilder();
+    for (int i = 0; i < 31; i++) {
+        sb.append(num % 2 == 0 ? 0 : 1);
+        sb.append((i + 1) % 8 == 0 ? " " : "");
+        num /= 2;
+    }
+    return sb.reverse().toString();
+}
+*
+*/
