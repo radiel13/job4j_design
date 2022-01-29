@@ -26,7 +26,6 @@ public class Config {
                     throw new IllegalArgumentException();
                 }
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }
