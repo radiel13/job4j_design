@@ -10,7 +10,9 @@ public class Analyze {
     public static Info diff(Set<User> previous, Set<User> current) {
         Info result = new Info(0, 0, 0);
 
-        if (previous.equals(current)) return result;
+        if (previous.equals(current)) {
+            return result;
+        }
 
         Map<Integer, String> treeMap1 = previous.stream().collect(Collectors.toMap(User::getId, User::getName));
         Map<Integer, String> treeMap2 = current.stream().collect(Collectors.toMap(User::getId, User::getName));

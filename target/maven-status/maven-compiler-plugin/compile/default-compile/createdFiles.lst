@@ -1,2 +1,5 @@
 ru\job4j\Trigger.class
+ru\job4j\io\duplicates\DuplicatesFinder.class
+ru\job4j\io\duplicates\FileProperty.class
 ru\job4j\App.class
+ru\job4j\io\duplicates\DuplicatesVisitor.class

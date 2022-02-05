@@ -17,7 +17,7 @@ public class SimpleSet<T> implements Set<T> {
                 return false;
             }
 
-            if(val == null){
+            if (val == null) {
                 continue;
             }
 
@@ -46,6 +46,7 @@ public class SimpleSet<T> implements Set<T> {
 
     @Override
     public Iterator<T> iterator() {
+
         return set.iterator();
     }
 

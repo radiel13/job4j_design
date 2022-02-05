@@ -7,7 +7,8 @@ public class MatrixIt implements Iterator<Integer> {
     private final int[][] data;
     private int row = 0;
     private int column = 0;
-// solution 1
+
+    // solution 1
     public MatrixIt(int[][] data) {
         this.data = data;
     }
@@ -29,6 +30,7 @@ public class MatrixIt implements Iterator<Integer> {
 
         if (column == data[row].length - 1) {
             int temp = column;
+            //CHECKSTYLE:OFF
             return data[row++][(column -= temp) + temp];
         }
 

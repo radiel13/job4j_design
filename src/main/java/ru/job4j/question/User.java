@@ -2,7 +2,7 @@ package ru.job4j.question;
 
 import java.util.Objects;
 
-public class User  {
+public class User {
 
     private int id;
     private String name;
@@ -30,8 +30,12 @@ public class User  {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         User user = (User) o;
         return id == user.id && name.equals(user.name);
     }

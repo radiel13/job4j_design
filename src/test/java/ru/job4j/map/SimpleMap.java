@@ -54,6 +54,7 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
     private int hash(int hashCode) {
         int h;
+        //CHECKSTYLE:OFF
         return ((hashCode == 0) ? 0 : (h = hashCode) ^ (h >>> 16));
     }
 
@@ -134,8 +135,8 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
             @Override
             public boolean hasNext() {
-                for (int i = point; i < table.length-1; i++){
-                    if(table[i] != null){
+                for (int i = point; i < table.length - 1; i++) {
+                    if (table[i] != null) {
                         return true;
                     }
                 }

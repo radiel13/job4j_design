@@ -9,7 +9,7 @@ public class BackwardArrayIt implements Iterator<Integer> {
 
     public BackwardArrayIt(int[] data) {
         this.data = data;
-        point = this.data.length-1;
+        point = this.data.length - 1;
     }
 
     @Override

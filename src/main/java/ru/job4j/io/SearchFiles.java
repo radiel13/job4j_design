@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static java.nio.file.FileVisitResult.CONTINUE;
-
 public class SearchFiles extends SimpleFileVisitor<Path> {
     Predicate<Path> condition;
     List<Path> paths = new ArrayList<>();

@@ -10,7 +10,7 @@ public class SimpleArrayList<T> implements List<T> {
 
     private int modCount;
 
-    public SimpleArrayList(){
+    public SimpleArrayList() {
         this.container = (T[]) new Object[16];
     }
 
