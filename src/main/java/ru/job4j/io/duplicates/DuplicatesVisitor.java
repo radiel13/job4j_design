@@ -7,7 +7,6 @@ import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
-import java.util.stream.Collectors;
 
 import static java.nio.file.Files.size;
 
@@ -20,9 +19,7 @@ public class DuplicatesVisitor extends SimpleFileVisitor<Path> {
     }
 
     public Map<Path, FileProperty> getDuplicates() {
-        Iterator<Map.Entry<Path, FileProperty>> it = paths.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry<Path, FileProperty> pair = it.next();
+        for (Map.Entry<Path, FileProperty> pair : paths.entrySet()) {
             FileProperty temp = pair.getValue();
             for (Map.Entry<Path, FileProperty> file : paths.entrySet()) {
                 if (temp.equals(file.getValue()) && !(pair.getKey().equals(file.getKey()))) {

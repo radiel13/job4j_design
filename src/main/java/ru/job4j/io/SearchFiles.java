@@ -12,6 +12,7 @@ public class SearchFiles extends SimpleFileVisitor<Path> {
     List<Path> paths = new ArrayList<>();
 
     public SearchFiles(Predicate<Path> condition) {
+
         this.condition = condition;
     }
 
