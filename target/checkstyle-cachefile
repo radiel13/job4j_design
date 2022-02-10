@@ -1,7 +1,7 @@
-#Tue Feb 08 21:02:15 MSK 2022
+#Thu Feb 10 22:27:16 MSK 2022
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\set\\SimpleSetTest.java=1636788695993
-C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\tree\\SimpleTree.java=1638219108061
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\Abuse.java=1643534807160
+C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\tree\\SimpleTree.java=1638219108061
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\tree\\SimpleTreeTest.java=1638217916327
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\AppTest.java=1631381233255
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\list\\List.java=1643909384062
@@ -41,6 +41,7 @@ C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\poprikolu
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\ResultFile.java=1639318568315
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\SearchFiles.java=1644134903498
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\poprikolu\\Game.java=1637656567326
+C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\ArgsName.java=1644519643672
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\EvenNumberFile.java=1643909334581
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\iterator\\ListUtils.java=1636493755900
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\question\\AnalyzeTest.java=1643909218614
@@ -64,8 +65,10 @@ C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\collection\\SimpleQueueTest.java=1636207347604
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\set\\Tester.java=1637079615505
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\iterator\\FlatMap.java=1632512089768
+C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\io\\Zip.java=1644521172547
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\App.java=1631381233260
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\set\\SimpleSet.java=1643909453521
+C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\test\\java\\ru\\job4j\\io\\ArgsNameTest.java=1644519499928
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\generic\\Store.java=1633025686895
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\generic\\Base.java=1633025664953
 C\:\\Users\\radie\\IdeaProjects\\job4j\\job4j_design\\src\\main\\java\\ru\\job4j\\generics\\Generics.java=1643909326962

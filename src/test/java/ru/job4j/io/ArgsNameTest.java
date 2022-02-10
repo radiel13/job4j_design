@@ -14,6 +14,12 @@ public class ArgsNameTest {
     }
 
     @Test
+    public void whenDot() {
+        ArgsName jvm = ArgsName.of(new String[] {"-Xmx=.", "-encoding=UTF-8"});
+        assertThat(jvm.get("Xmx"), is("."));
+    }
+
+    @Test
     public void whenGetFirstReorder() {
         ArgsName jvm = ArgsName.of(new String[] {"-encoding=UTF-8", "-Xmx=512"});
         assertThat(jvm.get("Xmx"), is("512"));

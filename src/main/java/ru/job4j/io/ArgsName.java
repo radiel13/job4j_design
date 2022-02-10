@@ -11,7 +11,7 @@ public class ArgsName {
 
     public String get(String key) {
         if (!values.containsKey(key)) {
-            throw new IllegalArgumentException("There is no such a key");
+            throw new IllegalArgumentException("There is no such a key " + key);
         }
         return values.get(key);
     }
