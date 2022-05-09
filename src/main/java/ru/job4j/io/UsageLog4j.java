@@ -32,5 +32,14 @@ public class UsageLog4j {
                 "sex : {}, " +
                 "firstLetter : {}" ,
                 name, age, legs,height, salary, weight, tripple, sex, firstLetter);
+
+        try {
+            throw new Exception("Not supported code");
+        } catch (Exception e) {
+            LOG.error("Exception in log example", e);
+        }
+
     }
+
+
 }
